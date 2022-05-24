@@ -21,6 +21,7 @@
 		17CC8D13283C73B0008DD17B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8D12283C73B0008DD17B /* PhotoViewController.swift */; };
 		17CC8D15283C73C1008DD17B /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8D14283C73C1008DD17B /* VideoViewController.swift */; };
 		17CC8D17283C73D3008DD17B /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8D16283C73D3008DD17B /* NewChatViewController.swift */; };
+		17CC8D19283C8982008DD17B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8D18283C8982008DD17B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		17CC8D12283C73B0008DD17B /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		17CC8D14283C73C1008DD17B /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		17CC8D16283C73D3008DD17B /* NewChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
+		17CC8D18283C8982008DD17B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 			children = (
 				17CC8CD7283C626C008DD17B /* AppDelegate.swift */,
 				17CC8CD9283C626C008DD17B /* SceneDelegate.swift */,
+				17CC8D18283C8982008DD17B /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17CC8D11283C739F008DD17B /* StartViewController.swift in Sources */,
+				17CC8D19283C8982008DD17B /* Extensions.swift in Sources */,
 				17CC8D15283C73C1008DD17B /* VideoViewController.swift in Sources */,
 				17CC8D0F283C738B008DD17B /* LoginViewController.swift in Sources */,
 				17CC8CDC283C626C008DD17B /* ConversationViewController.swift in Sources */,

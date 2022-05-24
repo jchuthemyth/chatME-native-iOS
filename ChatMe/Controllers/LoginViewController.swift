@@ -8,22 +8,47 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    private let threeBar: UIImageView = {
+        let threeBar = UIImageView()
+        threeBar.image = UIImage(systemName: "mount.fill")?.withTintColor(.red, renderingMode: .alwaysOriginal)
+        
+        return threeBar
+    }()
+    
+    private let segmentedControl: UISegmentedControl = {
+        let sc = UISegmentedControl(items: ["Login", "SignUp"])
+        let titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        sc.selectedSegmentIndex = 0
+        sc.selectedSegmentTintColor = UIColor(hexString: themeColor)
+        sc.backgroundColor = .white
+        sc.setTitleTextAttributes(titleTextAttributes, for: .selected)
+        return sc
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        view.layer.cornerRadius = 20
+        view.layer.masksToBounds = true
+        
+        view.addSubview(threeBar)
+        view.addSubview(segmentedControl)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLayoutSubviews() {
+        let threeBarSize = view.width / 25
+        let segmentedControlSize = view.width / 3
+        threeBar.frame = CGRect(x: (view.width - threeBarSize) / 2,
+                                 y: 5,
+                                 width: threeBarSize,
+                                 height: threeBarSize)
+        
+        segmentedControl.frame = CGRect(x: (view.width - segmentedControlSize) / 2,
+                                        y: threeBar.bottom + 50,
+                                        width: segmentedControlSize,
+                                        height: 40)
     }
-    */
+    
 
 }
