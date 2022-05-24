@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		17CC8CD8283C626C008DD17B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8CD7283C626C008DD17B /* AppDelegate.swift */; };
 		17CC8CDA283C626C008DD17B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8CD9283C626C008DD17B /* SceneDelegate.swift */; };
-		17CC8CDC283C626C008DD17B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8CDB283C626C008DD17B /* ViewController.swift */; };
+		17CC8CDC283C626C008DD17B /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8CDB283C626C008DD17B /* ConversationViewController.swift */; };
 		17CC8CDF283C626C008DD17B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CC8CDD283C626C008DD17B /* Main.storyboard */; };
 		17CC8CE1283C626F008DD17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CC8CE0283C626F008DD17B /* Assets.xcassets */; };
 		17CC8CE4283C626F008DD17B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CC8CE2283C626F008DD17B /* LaunchScreen.storyboard */; };
 		17CC8CEF283C626F008DD17B /* ChatMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8CEE283C626F008DD17B /* ChatMeTests.swift */; };
 		17CC8CF9283C6270008DD17B /* ChatMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8CF8283C6270008DD17B /* ChatMeUITests.swift */; };
 		17CC8CFB283C6270008DD17B /* ChatMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8CFA283C6270008DD17B /* ChatMeUITestsLaunchTests.swift */; };
+		17CC8D0F283C738B008DD17B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8D0E283C738B008DD17B /* LoginViewController.swift */; };
+		17CC8D11283C739F008DD17B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8D10283C739F008DD17B /* StartViewController.swift */; };
+		17CC8D13283C73B0008DD17B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8D12283C73B0008DD17B /* PhotoViewController.swift */; };
+		17CC8D15283C73C1008DD17B /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8D14283C73C1008DD17B /* VideoViewController.swift */; };
+		17CC8D17283C73D3008DD17B /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC8D16283C73D3008DD17B /* NewChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		17CC8CD4283C626C008DD17B /* ChatMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CC8CD7283C626C008DD17B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17CC8CD9283C626C008DD17B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17CC8CDB283C626C008DD17B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17CC8CDB283C626C008DD17B /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		17CC8CDE283C626C008DD17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17CC8CE0283C626F008DD17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17CC8CE3283C626F008DD17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		17CC8CF4283C6270008DD17B /* ChatMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CC8CF8283C6270008DD17B /* ChatMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMeUITests.swift; sourceTree = "<group>"; };
 		17CC8CFA283C6270008DD17B /* ChatMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17CC8D0E283C738B008DD17B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		17CC8D10283C739F008DD17B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		17CC8D12283C73B0008DD17B /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		17CC8D14283C73C1008DD17B /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		17CC8D16283C73D3008DD17B /* NewChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +109,11 @@
 		17CC8CD6283C626C008DD17B /* ChatMe */ = {
 			isa = PBXGroup;
 			children = (
-				17CC8CD7283C626C008DD17B /* AppDelegate.swift */,
-				17CC8CD9283C626C008DD17B /* SceneDelegate.swift */,
-				17CC8CDB283C626C008DD17B /* ViewController.swift */,
-				17CC8CDD283C626C008DD17B /* Main.storyboard */,
-				17CC8CE0283C626F008DD17B /* Assets.xcassets */,
-				17CC8CE2283C626F008DD17B /* LaunchScreen.storyboard */,
+				17CC8D0C283C65E2008DD17B /* Resources */,
+				17CC8D0B283C65D8008DD17B /* Controllers */,
+				17CC8D0A283C65A9008DD17B /* Models */,
+				17CC8D09283C6597008DD17B /* Views */,
+				17CC8D08283C657E008DD17B /* ViewModels */,
 				17CC8CE5283C626F008DD17B /* Info.plist */,
 			);
 			path = ChatMe;
@@ -125,6 +134,60 @@
 				17CC8CFA283C6270008DD17B /* ChatMeUITestsLaunchTests.swift */,
 			);
 			path = ChatMeUITests;
+			sourceTree = "<group>";
+		};
+		17CC8D08283C657E008DD17B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		17CC8D09283C6597008DD17B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17CC8D0D283C667A008DD17B /* Storyboards */,
+				17CC8CE0283C626F008DD17B /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17CC8D0A283C65A9008DD17B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17CC8D0B283C65D8008DD17B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17CC8CDB283C626C008DD17B /* ConversationViewController.swift */,
+				17CC8D0E283C738B008DD17B /* LoginViewController.swift */,
+				17CC8D10283C739F008DD17B /* StartViewController.swift */,
+				17CC8D12283C73B0008DD17B /* PhotoViewController.swift */,
+				17CC8D14283C73C1008DD17B /* VideoViewController.swift */,
+				17CC8D16283C73D3008DD17B /* NewChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		17CC8D0C283C65E2008DD17B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17CC8CD7283C626C008DD17B /* AppDelegate.swift */,
+				17CC8CD9283C626C008DD17B /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17CC8D0D283C667A008DD17B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				17CC8CDD283C626C008DD17B /* Main.storyboard */,
+				17CC8CE2283C626F008DD17B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17CC8CDC283C626C008DD17B /* ViewController.swift in Sources */,
+				17CC8D11283C739F008DD17B /* StartViewController.swift in Sources */,
+				17CC8D15283C73C1008DD17B /* VideoViewController.swift in Sources */,
+				17CC8D0F283C738B008DD17B /* LoginViewController.swift in Sources */,
+				17CC8CDC283C626C008DD17B /* ConversationViewController.swift in Sources */,
 				17CC8CD8283C626C008DD17B /* AppDelegate.swift in Sources */,
 				17CC8CDA283C626C008DD17B /* SceneDelegate.swift in Sources */,
+				17CC8D13283C73B0008DD17B /* PhotoViewController.swift in Sources */,
+				17CC8D17283C73D3008DD17B /* NewChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,8 +512,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,8 +541,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
