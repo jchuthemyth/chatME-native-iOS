@@ -56,3 +56,19 @@ extension UIColor {
 }
 
 public let themeColor = "#0C6C9F"
+
+extension UIViewController {
+    public func alertPopUp(title: String, message: String) {
+        let alertBox = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertBox.addAction(alertAction)
+        self.present(alertBox, animated: true, completion: nil)
+    }
+    
+    //custom function - view appear from hidden with animation
+    public func setAnimationForView(view: UIView, hidden: Bool, option: UIView.AnimationOptions) {
+        UIView.transition(with: view, duration: 0.7, options: option, animations: {
+            view.isHidden = hidden
+        })
+    }
+}

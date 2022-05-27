@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>100684619800-vmgs9a4fnl80nn24ijejjt2qgs6gth6p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.100684619800-vmgs9a4fnl80nn24ijejjt2qgs6gth6p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBasuC8KvMyZ6kVlwng1jB7vWTCTvITqVY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>100684619800</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vc.www.ChatMe</string>
+	<key>PROJECT_ID</key>
+	<string>chatme-359e5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatme-359e5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:100684619800:ios:c7f14bef53dcc10c44236d</string>
+</dict>
+</plist>
